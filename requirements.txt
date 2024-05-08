@@ -1,0 +1,8 @@
+tensorflow
+torch
+tf-keras
+huggingface_hub
+transformers
+datasets
+evaluate
+accelerate
