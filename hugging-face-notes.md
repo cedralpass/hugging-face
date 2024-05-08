@@ -8,6 +8,16 @@
 
 Here is the link to the [Welcome Screen](https://huggingface.co/welcome)
 
+# running through the following tutorials
+Transformers provides APIs and tools to easily download and train state-of-the-art pretrained models. Using pretrained models can reduce your compute costs, carbon footprint, and save you the time and resources required to train a model from scratch. These models support common tasks in different modalities, such as:
+- 📝 Natural Language Processing: text classification, named entity recognition, question answering, language modeling, summarization, translation, multiple choice, and text generation.
+- 🖼️ Computer Vision: image classification, object detection, and segmentation.
+- 🗣️ Audio: automatic speech recognition and audio classification.
+- 🐙 Multimodal: table question answering, optical character recognition, information extraction from scanned documents, video classification, and visual question answering.
+
+[tutorials on transformers](https://huggingface.co/docs/transformers/en/index)
+
+
 
 ## Keras Error
 
@@ -24,3 +34,13 @@ Validate by running ```ffmpeg``` after install
 ## Huggingface Cache
 The tutorials download pre-trained models..  Make sure your machine has space. For just the pipeline tutorial, it used 9.1 GB
 The chache is located here ```~/.cache/huggingface```
+
+# my take on the tutorials
+
+## pipelines
+following [Pipelines for inference](https://huggingface.co/docs/transformers/en/pipeline_tutorial)
+Jupyter Lab File: ```hf-pipeline-tutorial.ipynb```
+## Preprocess data
+following [Preprocess](https://huggingface.co/docs/transformers/en/preprocessing)
+Jupyter Lab File: ```hf-preprocess-tutorial.ipynb```
+
